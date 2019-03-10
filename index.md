@@ -1,92 +1,111 @@
 ---
 layout: cv
-title: Wode "Nimo" Ni
-email: woden@cs.cmu.edu
+title: 张凯
+email: zhangkai0319@gmail.com
 homepage:
-    url: http://cs.cmu.edu/~woden
+    url: https://github.com/klyan
     text: cs.cmu.edu/~woden
 ---
-# Wode __Ni__
+# 张 凯
+
+- 主页: https://github.com/klyan, text
+- phone: 13168736869
+- email: zhangkai0319@gmail.com
 
 <!--
-include contact information from the front matter
-Supported arguments:
-    - homepage: url, text
-    - phone
-    - email
--->
 {% include cv-contact.html %}
+-->
 
-## Education
+## 教育经历
 
-### __Carnegie Mellon University__ `2018.9 -`
+### __中国科学技术大学__ `2012.09 - 2015.07`
 ```
-Pittsburgh, PA
+13/63
 ```
-- Ph.D. in Software Engineering
-- Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/)
+- 硕士. 软件工程
+- 中国科学院深圳先进技术研究院联合培养. 数据挖掘
 
-### __Columbia University__ `2016.9 - 2018.5`
+### __辽宁工程技术大学__ `2008.09 - 2012.07`
 ```
-New York, NY
+2/30
 ```
-- B.S. in Computer Science, _Magna Cum Laude_
-- Vision, Graphics track
+- 本科. 软件工程
 
-### __Dickinson College__ `2013.9 - 2016.5`
-```
-Carlisle, PA
-```
-- B.S. in Computer Science, _Summa Cum Laude_
-- Computer Science Departmental Honors
+## 工作经历
 
-## Publications
-
-### [__Substance and Style: domain-specific languages for mathematical diagrams__](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
-__Wode Ni\*__, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br>  _Domain-Specific Language Design and Implementation (DSLDI 2017),  co-located with SPLASH._ <br>
-[[PDF](assets/dsldi.pdf)]
-[[slides](assets/dsldi-presentation.pdf)]
-[[www](http://penrose.ink)]
-[[repo](https://github.com/penrose/penrose)]
-
-### [__Whiteboard Scanning Using Super-Resolution__](http://scholar.dickinson.edu/student_honors/221/)
-__Wode Ni__.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF](assets/superres.pdf)]
-
-## Experience
-
-### __Carnegie Mellon University, Research Experiences for Undergraduate__  `2017.5 - 2017.8`
-_Research Assistant_<br>
-__Penrose__ is a system that automatically visualizes mathematics using two domain-specific languages: __Substance__ and __Style__. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
-
-### __Columbia University, Computer Graphics and User Interfaces Lab__ `2017.1 - 2017.5`
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on __Cyber Affordance Visualization in Augumented Reality__ project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
-
-### __AsiaInfo__ `2015.6 - 2015.8`
-_Software Engineering Intern_<br>
-Worked on server-side web applications and server deployment tools.
+### 美团点评. 算法开发工程师 `2016.09 - `
+- 点评搜索智能中心/业务排序组 美食筛选列表排序负责人 P3-1
+- 职责业绩：
 
 
-## Teaching
+### 陆金所. 算法工程师 `2015.03 - 2016.09`
+- 大数据部 
+- 职责业绩：
+1、基于数据挖掘技术，负责精准化营销业务的算法设计和优化，包括：个性化基金推荐，新客投资意愿，新客投资偏好以及高净值用户识别模型等； 
+2、基于业务，整理与维护用户画像、模型特征； 
+3、数据分析，建立A/B实验平台，为模型效果以及市场部SEM优化提供数据支持，上报业务需要的统计数据； 
 
-Teaching Assistant, __Programming Languages and Translators (COMS 4115)__ `Columbia, 2017 - 2018` <br>
-Teaching Assistant, __Introduction to Java II (COMP 132)__ `Dickinson, 2016` <br>
-Peer Tutor, __Data Structures and Problem Solving (COMP 232)__ `Dickinson, 2016` <br>
-Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
+
+## 项目经历
+
+### __美食筛选列表页排序优化__  `2016.09 – `
+_美团点评_<br>
+项目描述：	点评APP美食商户附近列表排序。<br>
+项目职责：<br>
+1.特征体系化建设<br>
+2.模型优化：LR，GBDT，DeepFM<br>
+项目业绩：	<br>
+
+### __个性化基金推荐__  `2015.12 – 2016.01 `
+_陆金所_<br>
+项目描述：	根据用户属性、基金属性以及用户-基金交互属性，给用户对每只基金的喜好进行打分，并给用户推荐可能购买的基金。<br>
+项目职责：	基于用户点击购买基金的历史数据，设计并用Hive提取用户特征、基金特征以及其交叉特征，使用Python建立逻辑回归模型，为每一个（用户，基金）对进行打分，给用户推荐打分高的基金产品。<br>
+项目业绩：	预测用户是否会购买此基金的模型AUC达0.8<br>
 
 
-## Honors & Awards
+### __获客优化__ `2015.03 - 2016.05`
+_陆金所_<br>
+项目描述：1.新老客的落地页优化 2.用户首投前的高净值用户识别  3.薅羊毛用户识别 <br>
+项目职责：<br>
+1、CRM建设，包括：用户基本信息、渠道信息、站内行为以及用户投资历史等,建立个性化推荐模型.<br>
+2、用户画像建模，建立新客的投资意愿和高净值用户识别模型.  <br>
+3、挖掘用户第一次访问到投资全流程特征，建立薅羊毛用户模型. <br>
+项目业绩：<br>
+推荐笔数提高20%，推荐金额提高30%;<br>
+取30%的人可召回85%以上的高净值客户;<br>
+节约当月获客成本约340万. <br>
 
-Phi Beta Kappa `Dickinson, 2018` <br>
-Excellence in Computer Science Award `Columbia, 2018` <br>
-Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
-Computer Science Departmental Honors `Dickinson, 2016` <br>
-Pi Mu Epsilon, Mathematics Honor Society `Dickinson, 2016` <br>
-Upsilon Pi Epsilon, Computer Science Honor Society  `Dickinson, 2016` <br>
-Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
-John Montgomery Scholarship `Dickinson, 2013` <br>
+### __基于数据挖掘技术的Android恶意软件检测系统__ `2013.10 – 2014.10`
+_中科院深圳先进院联合培养项目_<br>
+项目描述：挖掘新的Android恶意特征，结合已有的权限和API特征，实现Android恶意软件的自动化检测系统<br>
+项目职责：<br>
+1、重现前人的基于的Android权限和API检测技术.<br>
+2、提出新的Dalvik指令集特征，利用特征选择算法，结合不同分类模型，验证特征的有效性.  <br>
+3、系统开发，实现Android端和服务器端的自动化检测. <br>
+项目业绩：检测系统, 检测率+7%, 论文和专利. <br>
+
+
+## 技能
+熟悉常用CTR预估相关算法: LR, FTRL, GBDT, 深度学习, Lambda <br>
+熟悉常用的建模工具：Python, Tensorflow, R <br>
+熟悉Java开发 <br>
+Hive/ Spark/ Git <br>
+CET6 <br>
+
+
+## 荣誉和奖励
+
+基于wifi指纹与用户偏好的联合到店判定算法(专利)  `美团点评, 2019` <br>
+2018Q1点评平台卓越宝宝奖  `美团点评, 2018.03` <br>
+京东借贷需求预测  __13/755__.  `美团点评, 2017.12` <br>
+2017美团点评首届Kaggle大赛 __14/__.  `美团点评, 2017.10` <br>
+2017香港渣打马拉松 全马Finisher `2017.02` <br>
+Kai Zhang, Qingshan Jiang, Wei Zhang, et al. An Android Malware Detection Method Using the Dalivk Instructions. 2014 International Conference on Informatics, Networking and Intelligent Computing.(EI检索) `中科院, 2014` <br>
+专利：一种基于Dalvik指令和权限组合的安卓恶意软件检测方法和系统.`中科院, 2014` <br>
+软件学院优秀学生干部，软件学院优秀学生奖学金铜奖 `中国科大, 2012-2013` <br>
+优秀毕业生，校二等奖学金/校三好学生(连续四年) `辽宁工大, 2008-2012` <br>
+
 
 <!-- ### Footer
 
-Last updated: May 2013 -->
+Last updated:  2019.03.10 -->
