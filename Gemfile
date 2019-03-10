@@ -1,2 +1,2 @@
 source 'https://rubygems.org'
-gem 'jekyll-assets', "~> 2.4.0"
+gem 'jekyll-assets', '~> 3.0', '>= 3.0.12'
